@@ -1,0 +1,9 @@
+package projetop1;
+
+public class AmareloSTR implements ColorStrategy
+{
+    public void print()
+    {
+        System.out.print("\u001B[43m" + " " + "\u001B[0m");
+    }
+}
